@@ -80,9 +80,9 @@ parsers: # array
         - DOMAIN-SUFFIX,sharepoint.com,DIRECT
         - RULE-SET,private,DIRECT
         - RULE-SET,reject, 广告拦截
-        - RULE-SET,icloud,DIRECT #
+        - RULE-SET,icloud,PROXY # 这三个为国内可直连地址，如果希望走代理改为PROXY
         - RULE-SET,apple,PROXY # 这三个为国内可直连地址，如果希望走代理改为PROXY
-        - RULE-SET,google,DIRECT #
+        - RULE-SET,google,PROXY # 这三个为国内可直连地址，如果希望走代理改为PROXY
         - RULE-SET,tld-not-cn,PROXY
         - RULE-SET,gfw,PROXY
         - RULE-SET,greatfire,PROXY
